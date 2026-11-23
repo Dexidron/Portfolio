@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Nathan Dugal, étudiant en BUT Informatique à l'IUT d'Orsay, à la recherche d'un stage de 8 à 10 semaines à partir du 3 mai.">
     <title>Nathan Dugal | Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="index.css">
@@ -22,299 +24,307 @@
             <li><a href="#skills">Compétences</a></li>
             <li><a href="#experience">Expériences</a></li>
             <li><a href="#projects">Projets</a></li>
+            <li><a href="#interets">Intérêts</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <section class="hero">
-
         <div class="hero-content">
 
             <div class="hero-text">
-
-                <h1>
-                    Bonjour, je suis <span>Nathan Dugal</span>
-                </h1>
+                <h1><span>Nathan Dugal</span></h1>
 
                 <p>
-                    Étudiant en BUT Informatique à l’Université Paris-Saclay, je me spécialise dans le développement logiciel et web.  
-                    Curieux, rigoureux et motivé, j’aime comprendre comment fonctionnent les systèmes et construire des solutions efficaces et propres.
+                    Étudiant en 2<sup>e</sup> année de BUT Informatique à l'IUT d'Orsay (Université Paris-Saclay),
+                    je me forme au développement logiciel et web. J'aime comprendre comment fonctionnent
+                    les systèmes et construire des solutions claires et fiables.
                 </p>
 
                 <p>
-                    Au cours de ma formation, j’ai acquis des bases solides en programmation (C++, Java), en développement web (HTML, CSS) ainsi qu’en bases de données et systèmes.  
-                    J’ai également travaillé sur plusieurs projets académiques et personnels.
+                    Mon parcours m'a donné de solides bases en programmation (C++, Java), en développement web
+                    (HTML, CSS, PHP), en bases de données (SQL) et en systèmes et réseaux, mises en pratique
+                    dans des projets universitaires et lors de deux expériences en maintenance informatique.
                 </p>
 
-                <p>
-                    Je recherche actuellement une alternance de 24 mois à partir de septembre 2026.
+                <p class="highlight">
+                    Je recherche un stage de 8 à 10 semaines en informatique, à partir du 3 mai.
                 </p>
 
-                <p>
-                    📍 Massy (91) • 🚗 Permis B
-                </p>
+                <p class="meta">📍 Massy (91) &nbsp;•&nbsp; 🚗 Permis B, véhiculé</p>
 
                 <div class="btns">
-                    <a href="CV_Nathan_Dugal.pdf" class="btn secondary" download="CV_Nathan_Dugal.pdf">
-                        Télécharger mon CV
-                    </a>
+                    <a href="CV_BUT2_Stage.pdf" class="btn primary" download="CV_Nathan_Dugal.pdf">Télécharger mon CV</a>
+                    <a href="#contact" class="btn secondary">Me contacter</a>
                 </div>
-
             </div>
 
             <div class="profile">
-                <img src="images/nathan.jpg" alt="Nathan Dugal">
+                <img src="images/nathan.jpg" alt="Portrait de Nathan Dugal">
             </div>
 
         </div>
-
     </section>
 
-    <!-- FORMATION AVEC IMAGES -->
     <section id="formation" class="hidden">
         <h2 class="section-title">Ma <span>formation</span></h2>
 
         <div class="grid">
-
             <div class="card">
-                <img src="images/iut.jpg" alt="IUT d'Orsay" style="width:100%; border-radius:15px; margin-bottom:15px;">
-                <h3>BUT Informatique</h3>
-                <p>
-                    IUT d'Orsay – Université Paris-Saclay<br>
-                    2025 - Aujourd'hui
-                </p>
+                <img src="images/iut.jpg" alt="IUT d'Orsay">
+                <h3>BUT Informatique <small>en cours</small></h3>
+                <p>IUT d'Orsay – Université Paris-Saclay<br>2025 – aujourd'hui</p>
             </div>
 
             <div class="card">
-                <img src="images/lycee.jpg" alt="Lycée Parc de Vilgénis" style="width:100%; border-radius:15px; margin-bottom:15px;">
-                <h3>Baccalauréat Général</h3>
+                <img src="images/lycee.jpg" alt="Lycée Parc de Vilgénis">
+                <h3>Baccalauréat général</h3>
                 <p>
                     Lycée Parc de Vilgénis<br>
-                    Mathématiques - Physique Chimie
+                    Spécialités : Mathématiques, Physique-Chimie<br>
+                    Option : Mathématiques expertes
                 </p>
             </div>
-
         </div>
     </section>
 
-	<section id="skills" class="hidden">
+    <section id="skills" class="hidden">
+        <h2 class="section-title">Mes <span>compétences</span></h2>
 
-		<h2 class="section-title">
-			Mes <span>compétences</span>
-		</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>💻 Programmation</h3>
+                <p>Bases solides en C++ et Java : conditions, boucles, fonctions, programmation orientée objet et algorithmique.</p>
+            </div>
 
-		<div class="grid">
+            <div class="card">
+                <h3>🌐 Développement web</h3>
+                <p>Création de pages web en HTML et CSS, structuration du contenu, mise en forme et bases de PHP.</p>
+            </div>
 
-			<div class="card">
-				<h3>💻 Développement logiciel</h3>
-				<p>
-					Programmation orientée objet en C++ et Java, création d’applications,
-					résolution de problèmes, conception d’algorithmes et structures de données.
-				</p>
-			</div>
+            <div class="card">
+                <h3>🗄️ Bases de données</h3>
+                <p>Création, modification et consultation de bases relationnelles (MySQL, Oracle) avec SQL, et analyse de données avec Python.</p>
+            </div>
 
-			<div class="card">
-				<h3>🌐 Développement Web</h3>
-				<p>
-					Création de sites web responsives avec HTML5 et CSS3,
-					intégration d’interfaces modernes et ergonomiques.
-				</p>
-			</div>
+            <div class="card">
+                <h3>🐧 Systèmes & Réseaux</h3>
+                <p>Utilisation de Windows et Linux, bases des architectures réseau, de l'adressage IP et des protocoles.</p>
+            </div>
 
-			<div class="card">
-				<h3>🗄️ Bases de données</h3>
-				<p>
-					Conception et gestion de bases de données relationnelles,
-					utilisation de SQL pour interroger et organiser les données.
-				</p>
-			</div>
+            <div class="card">
+                <h3>⚙️ Outils de développement</h3>
+                <p>Git et GitLab pour le suivi de projets, Visual Studio, Eclipse et Code::Blocks pour développer.</p>
+            </div>
 
-			<div class="card">
-				<h3>🐧 Systèmes & Réseaux</h3>
-				<p>
-					Utilisation de Linux et Windows, travail en ligne de commande,
-					compréhension du fonctionnement des systèmes et des réseaux.
-				</p>
-			</div>
+            <div class="card">
+                <h3>🛠️ Support & maintenance</h3>
+                <p>Assistance aux utilisateurs, suivi d'un parc informatique (PC, tablettes, périphériques) et gestion de bases de contacts.</p>
+            </div>
+        </div>
 
-			<div class="card">
-				<h3>⚙️ Outils de développement</h3>
-				<p>
-					Utilisation de Git, GitLab, VS Code, Eclipse et Visual Studio
-					pour le développement et la gestion de projets.
-				</p>
-			</div>
+        <div class="skill-groups">
+            <div class="skill-group">
+                <h4>Langages</h4>
+                <div class="skills">
+                    <div class="skill">C++</div><div class="skill">Java</div><div class="skill">C#</div>
+                    <div class="skill">Python</div><div class="skill">PHP</div><div class="skill">Lua / LÖVE2D</div>
+                </div>
+            </div>
+            <div class="skill-group">
+                <h4>Web & données</h4>
+                <div class="skills">
+                    <div class="skill">HTML</div><div class="skill">CSS</div><div class="skill">SQL</div>
+                    <div class="skill">MySQL</div><div class="skill">Oracle</div>
+                </div>
+            </div>
+            <div class="skill-group">
+                <h4>Systèmes & outils</h4>
+                <div class="skills">
+                    <div class="skill">Linux</div><div class="skill">Windows</div><div class="skill">Raspberry Pi</div>
+                    <div class="skill">Git / GitLab</div><div class="skill">Visual Studio</div>
+                    <div class="skill">Eclipse</div><div class="skill">Code::Blocks</div>
+                </div>
+            </div>
+            <div class="skill-group">
+                <h4>Savoir-être</h4>
+                <div class="skills">
+                    <div class="skill soft">Travail en équipe</div><div class="skill soft">Rigueur</div>
+                    <div class="skill soft">Autonomie</div><div class="skill soft">Esprit d'analyse</div>
+                    <div class="skill soft">Communication écrite</div><div class="skill soft">Curiosité</div>
+                </div>
+            </div>
+        </div>
 
-		</div>
+        <p class="note">Langues : français (langue maternelle), anglais et espagnol (niveau scolaire).</p>
+    </section>
 
-		<div class="skills" style="margin-top:40px;">
+    <section id="experience" class="hidden">
+        <h2 class="section-title">Mes <span>expériences</span></h2>
 
-			<div class="skill">C++</div>
-			<div class="skill">Java</div>
-			<div class="skill">HTML5</div>
-			<div class="skill">CSS3</div>
-			<div class="skill">SQL</div>
-			<div class="skill">Linux</div>
-			<div class="skill">Windows</div>
-			<div class="skill">Git</div>
-			<div class="skill">Visual Studio</div>
-			<div class="skill">Eclipse</div>
-			<div class="skill">Raspberry Pi</div>
-			<div class="skill">C#</div>
-		</div>
+        <div class="grid">
+            <div class="card">
+                <img src="images/massy.jpg" alt="Mairie de Massy">
+                <h3>Mairie de Massy</h3>
+                <p class="date">Emploi saisonnier – août 2025</p>
+                <ul>
+                    <li>Maintenance informatique dans les écoles et support aux utilisateurs</li>
+                    <li>Gestion et suivi du parc informatique : PC, tablettes et périphériques</li>
+                    <li>Mise à jour et vérification de données de contacts</li>
+                    <li>Rédaction de notes détaillant les modifications effectuées</li>
+                </ul>
+            </div>
 
-	</section>
-	
-	<section id="experience" class="hidden">
+            <div class="card">
+                <img src="images/fnac.jpg" alt="Fnac Darty">
+                <h3>Fnac Darty – Fnac Logistique</h3>
+                <p class="date">Stage de découverte – février 2022</p>
+                <ul>
+                    <li>Découverte du service de maintenance et de support technique</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-		<h2 class="section-title">
-			Mes <span>expériences</span>
-		</h2>
+    <section id="projects" class="hidden">
+        <h2 class="section-title">Mes <span>projets</span></h2>
 
-		<div class="grid">
+        <div class="grid">
+            <div class="card">
+                <h3>📊 Base de données & analyse</h3>
+                <p>
+                    Projet universitaire : création, insertion et exploitation de données en SQL,
+                    puis calculs, statistiques et indicateurs avec Python pour analyser les résultats.
+                </p>
+                <p><strong>Technologies :</strong> SQL, Python</p>
+            </div>
 
-			<div class="card">
-				<img src="images/fnac.jpg" alt="Fnac Logistique"
-					 style="width:100%; border-radius:15px; margin-bottom:15px;">
-				<h3>Fnac Logistique</h3>
-				<p>
-					Stage en maintenance informatique :
-					assistance technique, configuration de matériel
-					et gestion de postes informatiques.
-				</p>
-			</div>
+            <div class="card">
+                <h3>🎬 Application de notation de films</h3>
+                <p>
+                    Application Java inspirée de Letterboxd : consulter les fiches de films,
+                    attribuer des notes, rédiger des commentaires et lire les avis des autres utilisateurs.
+                </p>
+                <p><strong>Technologies :</strong> Java</p>
+            </div>
 
-			<div class="card">
-				<img src="images/massy.jpg" alt="Mairie de Massy"
-					 style="width:100%; border-radius:15px; margin-bottom:15px;">
-				<h3>Mairie de Massy</h3>
-				<p>
-					Emploi saisonnier au service informatique :
-					support utilisateur, maintenance et aide technique quotidienne.
-				</p>
-			</div>
+            <div class="card">
+                <h3>🌍 Analyse des besoins d'une agence de voyage</h3>
+                <p>
+                    Étude des besoins d'une entreprise de voyage fictive pour cadrer
+                    la conception de son système d'information.
+                </p>
+                <p><strong>Domaine :</strong> analyse des besoins</p>
+            </div>
 
-		</div>
+            <div class="card">
+                <h3>✈️ Site web d'agence de voyage</h3>
+                <p>
+                    Création d'un site web fictif d'agence de voyage : présentation de destinations,
+                    d'offres et d'informations pratiques, avec une page structurée en HTML et mise en forme en CSS.
+                </p>
+                <p><strong>Technologies :</strong> HTML, CSS</p>
+            </div>
 
-	</section>
+            <div class="card">
+                <h3>🕹️ Jeu vidéo 2D en C++</h3>
+                <p>
+                    Codage guidé d'un jeu vidéo en 2D en C++ : mise en pratique de la programmation orientée objet
+                    et de la logique de jeu.
+                </p>
+                <p><strong>Technologies :</strong> C++</p>
+            </div>
 
-	<section id="projects" class="hidden">
+            <div class="card">
+                <img src="images/gamejam.jpg" alt="CodeGameJam Montpellier" class="logo-img">
+                <h3>🎮 CodeGameJam de Montpellier</h3>
+                <p>
+                    Concours de programmation : concevoir et développer un jeu vidéo en équipe de 4,
+                    en développement continu pendant 30 h (gameplay et logique de jeu).
+                </p>
+                <p><strong>Technologies :</strong> Lua, LÖVE2D</p>
+            </div>
 
-		<h2 class="section-title">
-			Mes <span>projets</span>
-		</h2>
+            <div class="card">
+                <img src="images/raspberry.jpg" alt="Raspberry Pi" class="logo-img">
+                <h3>🐧 Linux & Raspberry Pi</h3>
+                <p>
+                    Découverte de Linux et du terminal, installation de services et manipulation
+                    d'un Raspberry Pi pour comprendre les systèmes embarqués.
+                </p>
+                <p><strong>Technologies :</strong> Linux, terminal, Raspberry Pi</p>
+            </div>
+        </div>
+    </section>
 
-		<div class="grid">
+    <section id="interets" class="hidden">
+        <h2 class="section-title">Au-delà du <span>code</span></h2>
 
-			<div class="card">
+        <div class="grid">
+            <div class="card">
+                <h3>🗣️ Langues</h3>
+                <ul>
+                    <li>Français : langue maternelle</li>
+                    <li>Anglais : niveau scolaire</li>
+                    <li>Espagnol : niveau scolaire</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>🎯 Centres d'intérêt</h3>
+                <ul>
+                    <li>Jeux vidéo de logique et de stratégie</li>
+                    <li>Musique et cinéma</li>
+                    <li>Sport : vélo et roller</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>🚀 Ce que je cherche</h3>
+                <p>
+                    Un stage où je peux contribuer à de vrais projets informatiques
+                    (développement, bases de données, support) et progresser auprès d'une équipe.
+                </p>
+            </div>
+        </div>
+    </section>
 
-				<h3>🌍 Site web d'agence de voyage</h3>
-				<p>
-					Création d’un site web fictif responsive permettant de présenter
-					des destinations, offres et informations de voyage.
-					Travail sur la structure HTML et le design CSS.
-				</p>
-				<p>
-					<strong>Technologies :</strong> HTML, CSS
-				</p>
-			</div>
+    <section id="contact" class="contact hidden">
+        <h2 class="section-title">Me <span>contacter</span></h2>
 
-			<div class="card">
-				<img src="images/gamejam.jpg" alt="Game Jam Montpellier"
-					 style="width:100%; border-radius:15px; margin-bottom:15px;">
+        <p class="intro">
+            Je recherche un stage de 8 à 10 semaines en informatique à partir du 3 mai.
+            N'hésitez pas à me contacter pour échanger.
+        </p>
 
-				<h3>🎮 Game Jam Montpellier</h3>
-				<p>
-					Développement d’un jeu vidéo en équipe de 4 lors d’une Game Jam de 30h.
-					Gestion du gameplay, logique du jeu et collaboration en équipe.
-				</p>
-				<p>
-					<strong>Technologies :</strong> Lua, LOVE2D
-				</p>
-			</div>
+        <div class="grid">
+            <div class="card">
+                <h3>📧 Email</h3>
+                <p>nathan.dugal28@gmail.com</p>
+                <div class="btns center">
+                    <a href="mailto:nathan.dugal28@gmail.com" class="btn primary">Envoyer un email</a>
+                    <button type="button" class="btn secondary" id="copy-email">Copier l'adresse</button>
+                </div>
+            </div>
 
-			<div class="card">
-				<img src="images/raspberry.jpg" alt="Linux Raspberry Pi"
-					 style="width:100%; border-radius:15px; margin-bottom:15px;">
+            <div class="card">
+                <h3>📱 Téléphone</h3>
+                <p>06 58 10 80 17</p>
+                <a href="tel:+33658108017" class="btn secondary">Appeler</a>
+            </div>
 
-				<h3>🐧 Linux & Raspberry Pi</h3>
-				<p>
-					Découverte du système Linux, utilisation du terminal,
-					installation de services et manipulation d’un Raspberry Pi
-					pour comprendre les systèmes embarqués.
-				</p>
-				<p>
-					<strong>Technologies :</strong> Linux, Terminal, Raspberry Pi
-				</p>
-			</div>
+            <div class="card">
+                <h3>💼 Réseaux</h3>
+                <p>Retrouvez-moi sur mes plateformes professionnelles</p>
+                <div class="btns center">
+                    <a href="https://www.linkedin.com/in/nathan-dugal-b0448223a/" target="_blank" rel="noopener" class="btn primary">LinkedIn</a>
+                    <a href="https://github.com/Dexidron" target="_blank" rel="noopener" class="btn secondary">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		</div>
+    <footer>© 2026 – Nathan Dugal</footer>
 
-	</section>
-
-	<section id="contact" class="contact hidden">
-
-		<h2 class="section-title">
-			Me <span>contacter</span>
-		</h2>
-
-		<p style="text-align:center; margin-bottom:40px;">
-			Je suis actuellement à la recherche d’une alternance de 24 mois
-			dans le développement logiciel et web ou encore secteur informatique.
-		</p>
-
-		<div class="grid">
-
-			<div class="card" style="text-align:center;">
-				<h3>📧 Email</h3>
-				<p>
-					nathan.dugal28@gmail.com
-				</p>
-				<a href="mailto:nathan.dugal28@gmail.com" class="btn primary">
-					Envoyer un email
-				</a>
-			</div>
-
-			<div class="card" style="text-align:center;">
-				<h3>📱 Téléphone</h3>
-				<p>
-					06 58 10 80 17
-				</p>
-				<a href="tel:0658108017" class="btn secondary">
-					Appeler
-				</a>
-			</div>
-
-			<div class="card" style="text-align:center;">
-				<h3>💼 Réseaux</h3>
-				<p>
-					Retrouvez-moi sur mes plateformes professionnelles
-				</p>
-
-				<div class="btns" style="justify-content:center;">
-
-					<a href="https://www.linkedin.com/in/nathan-dugal-b0448223a/"
-					   target="_blank"
-					   class="btn primary">
-						LinkedIn
-					</a>
-
-					<a href="https://github.com/Dexidron"
-					   target="_blank"
-					   class="btn secondary">
-						GitHub
-					</a>
-
-				</div>
-			</div>
-
-		</div>
-
-	</section>
-
-    <footer>
-        © 2026 - Nathan Dugal
-    </footer>
+    <a href="#" id="to-top" aria-label="Retour en haut">↑</a>
 
     <script src="index.js"></script>
 
